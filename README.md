@@ -30,6 +30,7 @@ Java Development Kit (JDK) version 8 or higher
 5. Update a Contact: Select a contact, then click "Update Contact" to edit the name and/or phone number.
 
 #####Code Overview
+
 The project follows a modular structure:
 
 Pseudocode: 
