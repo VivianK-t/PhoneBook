@@ -3,12 +3,12 @@
 This is a simple Phonebook application built using Java and Swing. It allows users to add, view, search, delete, and update contacts. The application uses a graphical user interface (GUI) for managing a list of contacts and provides basic phonebook functionalities.
 
 ##Features
-Add Contacts: Users can add new contacts by providing a name and phone number.
-View Contacts: Displays all saved contacts, sorted alphabetically.
-Search Contacts: Allows users to search for contacts by name.
-Delete Contacts: Users can remove contacts from the phonebook.
-Update Contacts: Allows editing of existing contact information.
-Search Efficiency Analysis: Measures the time taken for searching contacts.
+1. Add Contacts: Users can add new contacts by providing a name and phone number.
+2. View Contacts: Displays all saved contacts, sorted alphabetically.
+3. Search Contacts: Allows users to search for contacts by name.
+4. Delete Contacts: Users can remove contacts from the phonebook.
+5. Update Contacts: Allows editing of existing contact information.
+6. Search Efficiency Analysis: Measures the time taken for searching contacts.
 
 ###Installation
 Follow these instructions to run the Phonebook application on your local machine.
@@ -44,14 +44,14 @@ The GUI is divided into three main panels: input (for user input), output (to di
 The application uses an event-driven approach to handle user interactions, such as clicking buttons to perform various operations.
 
 ######Future Enhancements
-Sort Contacts: Add a feature to sort contacts by name or phone number.
-Export/Import Contacts: Implement functionality to save contacts to a file and load them from a file.
-More Search Options: Enhance search functionality to support partial matches and search by phone number.
+1. Sort Contacts: Add a feature to sort contacts by name or phone number.
+2. Export/Import Contacts: Implement functionality to save contacts to a file and load them from a file.
+3. More Search Options: Enhance search functionality to support partial matches and search by phone number.
 
-#######License
+#######License:
 This project is open-source and available under the MIT License.
 
-########Acknowledgments
+########Acknowledgments:
 Java Swing documentation for providing guidance on building graphical user interfaces.
 
 
