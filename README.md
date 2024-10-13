@@ -1,4 +1,4 @@
-# Phonebook Application
+# Phonebook
 
 This is a simple Phonebook application built using Java and Swing. It allows users to add, view, search, delete, and update contacts. The application uses a graphical user interface (GUI) for managing a list of contacts and provides basic phonebook functionalities.
 
