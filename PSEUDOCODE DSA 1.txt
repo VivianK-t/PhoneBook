@@ -1,0 +1,68 @@
+MODULE Phonebook
+  DATA STRUCTURE Contact
+   STRING name 
+   STRING phoneNumber
+ 
+
+ contacts = []  // list to hold the contacts
+
+
+ FUNCTION addContact(name, phoneNumber) 
+   CREATE newContact AS Contact
+   SET newContact.name = name 
+   SET newContact.phoneNumber = phoneNumber
+   APPEND newContact TO contacts
+ 
+
+ FUNCTION viewContacts(name)
+   IF contacts is empty
+      PRINT ("No contacts to display")
+       ELSE
+        FOR EACH contact in contacts:
+            PRINT(contact)
+        ENDFOR
+    
+
+ FUNCTION searchContact(name)
+   FOR EACH contact IN contacts DO
+     IF contact.name EQUALS name THEN
+        RETURN contact
+         ELSE 
+        RETURN NULL
+   END FOR 
+
+
+FUNCTION deleteContact(name)
+  FOR contact in contacts:
+     IF contact.name EQUALS name THEN
+        contacts.remove(contact)
+        PRINT("Contact deleted")
+        RETURN
+    PRINT("Contact not found")
+
+
+FUNCTION updateContact(name, newPhoneNumber)
+  FOR EACH contact IN contacts:
+    IF contact.name EQUALS name THEN
+        SET contact.phoneNumber = newPhoneNumber
+        PRINT "Contact Updated"
+        RETURN
+  ENDFOR 
+
+
+FUNCTION AnalyzeSearchEfficiency(searchName)
+        SET startTime = CURRENT_TIME()
+        CALL SearchContact(searchName)
+        SET endTime = CURRENT_TIME()
+        PRINT "Search took: " + (endTime - startTime) + " milliseconds.
+
+END MODULE
+   
+      
+        
+
+   
+
+
+
+
